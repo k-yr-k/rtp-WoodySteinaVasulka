@@ -1,0 +1,5 @@
+﻿videoInputD.lib(videoInput.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library bin\rtp_Vasulka_debug.lib and object bin\rtp_Vasulka_debug.exp
+openframeworksLib_debug.lib(ofPath.obj) : error LNK2019: unresolved external symbol ___dyn_tls_on_demand_init referenced in function "public: void __thiscall ofPath::tessellate(void)" (?tessellate@ofPath@@QAEXXZ)
+openframeworksLib_debug.lib(ofPath.obj) : error LNK2001: unresolved external symbol ___tls_guard
+bin\rtp_Vasulka_debug.exe : fatal error LNK1120: 2 unresolved externals
